@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<style>
+    body{
+        background-color: #ffffff;
+    }
+    .center{
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ffffff;
+    }
+
+    li {
+        float: left;
+        font-family: monospace;
+    }
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 10px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    li a:hover {
+        text-decoration: underline;
+    }
+    .navbar {
+        background-color: rgb(241, 241, 239);
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        float: right;
+        display: block;
+        color: #4d4d4d;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: monospace;
+    }
+
+    .navbar a:hover {
+        text-decoration: underline;
+    }
+
+</style>
+
+<html>
+    <div>
+        <body>
+            <img class = "center" src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt = "">
+            <ul>
+                <li><a href="default.asp">About</a></li>
+                <li><a href="news.asp">Store</a></li>
+            </ul>
+            <div class="navbar">
+                <a href="#home" class="active">Privacy</a>
+                <a href="#news">Terms</a>
+                <a href="#contact">Settings</a>
+              </div>
+        </body>
+
+    </div>
+</html>

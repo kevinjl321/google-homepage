@@ -1,1 +1,1 @@
-This is my first project for TOP curriculum. I will be replicating the Google homepage.
+First project for TOP curriculum; replication of the Google homepage.
